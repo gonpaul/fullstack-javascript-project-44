@@ -13,7 +13,7 @@ const isPrime = (num) => {
 };
 
 const brainPrimeRound = () => {
-  const thisRandomNumber = random100();
+  const thisRandomNumber = random100() + 1;
   console.log(`Question: ${thisRandomNumber}`);
   const userAnswer = readlineSync.question('Your answer: ').toLocaleLowerCase();
   const answer = (isPrime(thisRandomNumber)) ? 'yes' : 'no';
