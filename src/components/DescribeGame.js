@@ -9,7 +9,7 @@ const DescribeGame = (name, rounds, gameRound) => {
       }
     } else {
       console.log(`${data.userAnswer} is a wrong answer ;(. The correct answer was ${data.answer}.`);
-      console.log(`Let's try again, ${name}`);
+      console.log(`Let's try again, ${name}!`);
       break;
     }
   }
