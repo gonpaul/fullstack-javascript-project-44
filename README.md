@@ -1,5 +1,8 @@
+# Brain-Games
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/gonpaul/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/gonpaul/fullstack-javascript-project-44/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d8df865a2cd2520ad471/maintainability)](https://codeclimate.com/github/gonpaul/fullstack-javascript-project-44/maintainability)
 
 ### Instructions
 ```
