@@ -5,7 +5,7 @@ const DescribeGame = (name, rounds, gameRound) => {
     if (condition) {
       console.log('Correct!');
       if (i === rounds - 1) {
-        console.log(`Congratulations, ${name}`);
+        console.log(`Congratulations, ${name}!`);
       }
     } else {
       console.log(`${data.userAnswer} is a wrong answer ;(. The correct answer was ${data.answer}.`);
